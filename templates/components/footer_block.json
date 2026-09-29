@@ -1,0 +1,31 @@
+{
+  "component_id": "footer",
+  "type": "footer_block",
+  "source": "document_meta",
+  "props": {
+    "columns": [
+      {
+        "key": "author",
+        "prefix": "author: ",
+        "alignment_overrides": {
+          "horizontal": "left"
+        }
+      },
+      {
+        "key": "page_info",
+        "prefix": "page: "
+      },
+      {
+        "key": "document_version",
+        "prefix": "document version: ",
+        "alignment_overrides": {
+          "horizontal": "right"
+        }
+      }
+    ]
+  },
+  "alignment_defaults": {
+    "horizontal": "center",
+    "vertical": "center"
+  }
+}

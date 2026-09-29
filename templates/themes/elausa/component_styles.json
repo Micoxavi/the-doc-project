@@ -1,0 +1,51 @@
+{
+	"theme_id": "elausa",
+	"table_defaults": {
+		"title_background": "bg_primary",
+		"test_title_background": "bg_primary",
+		"header_background": "bg_primary",
+		"body_background": "bg_secondary",
+		"border_color": "border_dark",
+		"title_text_color": "text_primary",
+		"header_text_color": "text_primary",
+		"body_text_color": "text_primary",
+		"title_typography": "section_title",
+		"test_title_typography": "test_title",
+		"header_typography": "section_header",
+		"body_typography": "section_body"
+	},
+	"header": {
+		"background": "bg_secondary",
+		"border_color": "border_muted",
+		"body_text_color": "text_muted",
+		"header_link_body_typography": "report_link",
+		"header_body_typography": "report_header"
+	},
+	"footer": {
+		"background": "bg_secondary",
+		"border_color": "border_light",
+		"body_text_color": "text_muted",
+		"footer_typography": "report_footer"
+	},
+	"tables_overrides": {
+		"results_table": {
+			"title_background": "results_primary",
+			"header_background": "results_primary",
+			"body_background_odd": "results_secondary",
+			"body_background": "evaluation_status",
+			"border_color": "results_primary",
+			"title_text_color": "text_inverse",
+			"header_text_color": "text_inverse",
+			"body_text_color": "text_primary",
+			"title_typography": "test_title",
+			"header_typography": "results_header",
+			"body_typography": "results_body"
+		},
+		"evaluation_table": {
+			"dynamic_background": "evaluation_status",
+			"body_text_color": "text_primary",
+			"body_typography": "evaluation_text",
+			"evaluation_typography": "evaluation_text"
+		}
+	}
+}

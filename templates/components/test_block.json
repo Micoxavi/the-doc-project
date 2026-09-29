@@ -1,0 +1,79 @@
+{
+	"component_id": "test_block",
+	"type": "test_block",
+	"source": "tests",
+	"repeatable": true,
+	"props": {
+		"column_widths": [
+			0.2,
+			0.8
+		],
+		"min_row_height": 18,
+		"alignment_defaults": {
+			"horizontal": "center",
+			"vertical": "center"
+		}
+	},
+	"rows": [
+		{
+			"row_type": "section_title",
+			"title": "tests and results"
+		},
+		{
+			"row_type": "test_title_row",
+			"index_key": "test_number",
+			"title_key": "test_name",
+			"alignment_overrides": {
+				"title": {
+					"horizontal": "left"
+				}
+			}
+		},
+		{
+			"row_type": "label_value_row",
+			"label": "procedure",
+			"value_key": "procedure",
+			"alignment_overrides": {
+				"value": {
+					"horizontal": "left"
+				}
+			}
+		},
+		{
+			"row_type": "label_value_row",
+			"label": "mesurement_units",
+			"value_key": "mesurement_units",
+			"alignment_overrides": {
+				"value": {
+					"horizontal": "left"
+				}
+			}
+		},
+		{
+			"row_type": "header_row",
+			"value_key": "results title"
+		},
+		{
+			"row_type": "results_row",
+			"content_key": "results"
+		},
+		{
+			"row_type": "evaluation_row",
+			"left_label": "comment",
+			"left_value_key": "comment",
+			"right_label": "evaluation",
+			"right_value_key": "evaluation",
+			"alignment_overrides": {
+				"left_value": {
+					"horizontal": "left"
+				}
+			},
+			"column_widths": [
+				0.2,
+				0.48,
+				0.12,
+				0.2
+			]
+		}
+	]
+}

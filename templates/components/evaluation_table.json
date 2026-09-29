@@ -1,0 +1,25 @@
+{
+	"component_id": "evaluation_table",
+	"type": "label_value_table",
+	"source": "evaluation",
+	"props": {
+		"column_widths": [
+			0.3,
+			0.7
+		],
+		"min_row_height": 18,
+		"alignment_defaults": {
+			"horizontal": "right",
+			"vertical": "center"
+		},
+		"alignment_overrides": {
+			"value_key": {
+				"horizontal": "center"
+			}
+		},
+		"rows": {
+			"label": "test result",
+			"value_key": "result"
+		}
+	}
+}

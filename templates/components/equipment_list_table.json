@@ -1,0 +1,33 @@
+{
+	"component_id": "equipment_list",
+	"type": "table",
+	"source": "equipment",
+	"props": {
+		"title": "equipment list",
+		"column_widths": [
+			0.15,
+			0.23,
+			0.23,
+			0.23,
+			0.15
+		],
+		"min_rows": 2,
+		"min_row_height": 18,
+		"alignment_defaults": {
+			"horizontal": "left",
+			"vertical": "center"
+		},
+		"alignment_overrides": {
+			"title": {
+				"horizontal": "center"
+			}
+		},
+		"columns": [
+			"code",
+			"device",
+			"supplier",
+			"name",
+			"calib. date"
+		]
+	}
+}

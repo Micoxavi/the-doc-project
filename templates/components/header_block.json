@@ -1,0 +1,81 @@
+{
+	"component_id": "header",
+	"type": "header_block",
+	"source": "document_meta",
+	"props": {
+		"column_widths": [
+			0.1,
+			0.65,
+			0.25
+		],
+		"fixed_height": 40,
+		"alignment_defaults": {
+			"horizontal": "left",
+			"vertical": "center"
+		},
+		"columns": [
+			{
+				"column_type": "lab_column",
+				"content_key": "lab_logo"
+			},
+			{
+				"column_type": "container",
+				"row_heights": [
+					0.5,
+					0.5
+				],
+				"rows": [
+					{
+						"row_type": "container",
+						"column_widths": [
+							0.66,
+							0.33
+						],
+						"columns": [
+							{
+								"column_type": "document_name",
+								"value_key": "report_title"
+							},
+							{
+								"column_type": "container",
+								"row_heights": [
+									0.5,
+									0.5
+								],
+								"column_widths": [
+									0.5,
+									0.5
+								],
+								"rows": [
+									{
+										"row_type": "label_value_row",
+										"label": "revision:",
+										"value_key": "revision_num"
+									},
+									{
+										"row_type": "label_value_row",
+										"label": "date:",
+										"value_key": "issue_date"
+									}
+								]
+							}
+						]
+					},
+					{
+						"row_type": "label_value_row",
+						"label": "client reference:",
+						"value_key": "client_reference",
+						"column_widths": [
+							0.25,
+							0.75
+						]
+					}
+				]
+			},
+			{
+				"column_type": "elausa_column",
+				"content_key": "elausa_logo"
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "component_id": "appendix",
+  "type": "appendix_block",
+  "source": "appendix",
+  "props": {
+    "layout": {
+      "mode": "multicolumn",
+      "number_columns": 2
+    },
+    "alignment_defaults": {
+      "horizontal": "center",
+      "vertical": "center"
+    },
+    "rows": [
+      {
+        "row_type": "section_title",
+        "title": "appendix"
+      },
+      {
+        "row_type": "appendix_items",
+        "content_key": "items"
+      }
+    ]
+  }
+}

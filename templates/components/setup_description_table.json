@@ -1,0 +1,37 @@
+{
+    "component_id": "setup_table",
+    "type": "label_value_table",
+    "source": "setup",
+    "props": {
+        "column_widths": [
+            0.3,
+            0.7
+        ],
+        "min_row_height": 18,
+        "alignment_defaults": {
+            "horizontal": "center",
+            "vertical": "center"
+        },
+        "rows": [
+            {
+                "row_type": "section_title",
+                "title": "setup description"
+            },
+            {
+                "row_type": "label_value_row",
+                "label": "dut",
+                "value_key": "set_up_image",
+                "alignment_overrides": {
+                    "value": {
+                        "horizontal": "center"
+                    }
+                }
+            },
+            {
+                "row_type": "label_value_row",
+                "label": "description",
+                "value_key": "description_text"
+            }
+        ]
+    }
+}

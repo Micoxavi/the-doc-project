@@ -1,0 +1,46 @@
+{
+    "component_id": "sample_info_table",
+    "type": "label_value_table",
+    "source": "sample_info",
+    "props": {
+        "column_widths": [
+            0.3,
+            0.7
+        ],
+        "min_row_height": 18,
+        "alignment_defaults": {
+            "label": {
+                "horizontal": "right",
+                "vertical": "center"
+            },
+            "value_key": {
+                "horizontal": "left",
+                "vertical": "center"
+            }
+        },
+        "rows": [
+            {
+                "row_type": "section_title",
+                "title": "report_sample",
+                "alignment_overrides": {
+                    "horizontal": "center"
+                }
+            },
+            {
+                "row_type": "label_value_row",
+                "label": "component",
+                "value_key": "internal_code"
+            },
+            {
+                "row_type": "label_value_row",
+                "label": "platform",
+                "value_key": "car_reference"
+            },
+            {
+                "row_type": "label_value_row",
+                "label": "part number",
+                "value_key": "part_number"
+            }
+        ]
+    }
+}

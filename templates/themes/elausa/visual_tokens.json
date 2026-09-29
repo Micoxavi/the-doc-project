@@ -1,0 +1,103 @@
+{
+    "theme_id": "elausa",
+    "colors": {
+        "bg_primary": "#FFF2CC",
+        "bg_secondary": "#FFFFFF",
+        "results_primary": "#2F5496",
+        "results_secondary": "#D9E2F3",
+        "border_dark": "#000000",
+        "border_muted": "#404040",
+        "border_light": "#FFFFFF",
+        "text_primary": "#000000",
+        "text_muted": "#404040",
+        "text_inverse": "#FFFFFF",
+        "bg_pass_color": "#92D050",
+        "bg_fail_color": "#FF8F8F"
+    },
+    "typography": {
+        "section_title": {
+            "font_family": "Arial",
+            "font_size": 11,
+            "bold": false,
+            "italic": false,
+            "case": "uppercase"
+        },
+        "section_header": {
+            "font_family": "Arial",
+            "font_size": 10,
+            "bold": false,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "section_body": {
+            "font_family": "Arial",
+            "font_size": 10,
+            "bold": false,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "test_title": {
+            "font_family": "Arial",
+            "font_size": 12,
+            "bold": false,
+            "italic": false,
+            "case": "sentence_case"
+        },
+        "evaluation_text": {
+            "font_family": "Arial",
+            "font_size": 11,
+            "bold": false,
+            "italic": false,
+            "case": "uppercase"
+        },
+        "results_title": {
+            "font_family": "Calibri",
+            "font_size": 14,
+            "bold": true,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "results_header": {
+            "font_family": "Calibri",
+            "font_size": 12,
+            "bold": false,
+            "italics": false,
+            "case": "uppercase"
+        },
+        "results_body": {
+            "font_family": "Calibri",
+            "font_size": 12,
+            "bold": false,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "results_title_units": {
+            "font_family": "Calibri",
+            "font_size": 14,
+            "bold": true,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "report_header": {
+            "font_family": "Arial",
+            "font_size": 10,
+            "bold": false,
+            "italics": false,
+            "case": "sentence_case"
+        },
+        "report_link": {
+            "font_family": "Arial",
+            "font_size": 9,
+            "bold": false,
+            "italics": false,
+            "case": "preserve"
+        },
+        "report_footer": {
+            "font_family": "Arial",
+            "font_size": 8,
+            "bold": false,
+            "italics": true,
+            "case": "sentence_case"
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+	"template_id": "elausa_report",
+	"theme": "elausa",
+	"sections": [
+		{
+			"id": "cabecera",
+			"blocks": [
+				{
+					"component_id": "report_header",
+					"position": {
+						"width": "full"
+					}
+				}
+			]
+		},
+		{
+			"id": "portada",
+			"order": 1,
+			"blocks": [
+				{
+					"component_id": "sample_info_table",
+					"order": 1,
+					"width_ratio": 0.66,
+					"align": "center"
+				},
+				{
+					"component_id": "evaluation_table",
+					"order": 2,
+					"width_ratio": 0.66,
+					"align": "center"
+				},
+				{
+					"component_id": "released_by_table",
+					"order": 3,
+					"width_ratio": 1.0,
+					"align": "center"
+				},
+				{
+					"component_id": "document_history_table",
+					"order": 3,
+					"width_ratio": 1.0,
+					"align": "center"
+				}
+			]
+		},
+		{
+			"id": "info_pruebas",
+			"order": 2,
+			"blocks": [
+				{
+					"component_id": "tests_summary_table",
+					"order": 1,
+					"width_ratio": 1.0,
+					"align": "center"
+				},
+				{
+					"component_id": "equipment_list_table",
+					"order": 2,
+					"width_ratio": 1.0,
+					"align": "center"
+				},
+				{
+					"component_id": "setup_description_table",
+					"order": 3,
+					"width_ratio": 1.0,
+					"align": "center"
+				}
+			]
+		},
+		{
+			"id": "tests",
+			"order": 3,
+			"blocks": [
+				{
+					"component_id": "test_block",
+					"order": 1,
+					"width_ratio": 1.0,
+					"align": "center"
+				}
+			]
+		},
+		{
+			"id": "appendix",
+			"order": 4,
+			"blocks": [
+				{
+					"component_id": "appendix_table",
+					"order": 1,
+					"width_ratio": 1.0,
+					"align": "center"
+				}
+			]
+		},
+		{
+			"id": "pie_de_pagina",
+			"blocks": [
+				{
+					"component_id": "footer_table"
+				}
+			]
+		}
+	]
+}

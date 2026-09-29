@@ -1,0 +1,31 @@
+{
+	"component_id": "document_history",
+	"type": "table",
+	"source": "document_meta",
+	"props": {
+		"title": "document history",
+		"column_widths": [
+			0.20,
+			0.30,
+			0.30,
+			0.20
+		],
+		"min_rows": 2,
+		"min_row_height": 18,
+		"alignment_defaults": {
+			"horizontal": "left",
+			"vertical": "center"
+		},
+		"alignment_overrides": {
+			"title": {
+				"horizontal": "center"
+			}
+		},
+		"columns": [
+			"version",
+			"date",
+			"author",
+			"description"
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"component_id": "performed_tests",
+	"type": "table",
+	"source": "performed_tests",
+	"props": {
+		"title": "performed tests",
+		"column_widths": [
+			0.20,
+			0.30,
+			0.30,
+			0.20
+		],
+		"min_rows": 2,
+		"min_row_height": 18,
+		"alignment_defaults": {
+			"horizontal": "left",
+			"vertical": "center"
+		},
+		"alignment_overrides": {
+			"title": {
+				"horizontal": "center"
+			}
+		},
+		"columns": [
+			"Nº",
+			"test",
+			"dut nº",
+			"pass/fail"
+		]
+	}
+}

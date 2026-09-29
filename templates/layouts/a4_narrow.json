@@ -1,0 +1,28 @@
+{
+	"layout_id": "a4_narrow",
+	"page": {
+		"size": "A4",
+		"orientation": "portrait"
+	},
+	"margins": {
+		"top": 13,
+		"bottom": 13,
+		"left": 13,
+		"right": 13
+	},
+	"header": {
+		"enabled": true,
+		"height": 20
+	},
+	"footer": {
+		"enaled": true,
+		"height": 15
+	},
+	"content": {
+		"block_spacing": 8
+	},
+	"pagination": {
+		"allow_page_breaks": true,
+		"keep_section_title_with_first_block": true
+	}
+}
